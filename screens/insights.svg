@@ -1,0 +1,150 @@
+<svg viewBox="0 0 390 844" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="cardShadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="2" stdDeviation="6" flood-color="#A87C2F" flood-opacity="0.07"/>
+    </filter>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="3" stdDeviation="8" flood-color="#3D352C" flood-opacity="0.06"/>
+    </filter>
+    <clipPath id="screenClip"><rect x="0" y="0" width="390" height="844" rx="0"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#screenClip)">
+    <!-- Background -->
+    <rect x="0" y="0" width="390" height="844" fill="#FFF9F0"/>
+
+    <!-- Status bar -->
+    <text x="20" y="29" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#3D352C">9:41</text>
+    <g fill="#3D352C">
+      <rect x="330" y="18" width="3" height="9" rx="1"/>
+      <rect x="335" y="15" width="3" height="12" rx="1"/>
+      <rect x="340" y="12" width="3" height="15" rx="1"/>
+      <rect x="345" y="9" width="3" height="18" rx="1"/>
+      <path d="M353 13c4-4 11-4 15 0l-1.6 1.7c-3.2-3.2-8.6-3.2-11.8 0z"/>
+      <path d="M356 16.5c2.3-2.3 6.2-2.3 8.5 0l-1.6 1.7c-1.4-1.4-3.9-1.4-5.3 0z"/>
+      <circle cx="360.2" cy="20.5" r="1.6"/>
+      <rect x="372" y="12" width="22" height="11" rx="3" fill="none" stroke="#3D352C" stroke-width="1.2"/>
+      <rect x="374" y="14" width="16" height="7" rx="1.5"/>
+      <rect x="395" y="15" width="1.6" height="5" rx="0.8"/>
+    </g>
+
+    <!-- Back -->
+    <text x="20" y="62" font-family="system-ui, sans-serif" font-size="15" fill="#6F6557">‹ 뒤로</text>
+
+    <!-- ===== Header · Disclaimer ===== -->
+    <g font-family="system-ui, sans-serif">
+      <text x="20" y="98" font-size="28" font-weight="700" fill="#241E18">AI 인사이트</text>
+      <g transform="translate(335,80)">
+        <circle cx="0" cy="6" r="17" fill="#FFE7A3"/>
+        <text x="0" y="11.5" font-size="15" text-anchor="middle">📊</text>
+      </g>
+      <text x="20" y="120" font-size="13" fill="#6F6557">기록을 바탕으로 AI가 정리한 참고용 요약이에요.</text>
+      <text x="20" y="137" font-size="13" fill="#9A8B7B">진단·소견을 대체하지 않아요.</text>
+    </g>
+
+    <!-- ===== Monthly report section header + tab toggle ===== -->
+    <g font-family="system-ui, sans-serif">
+      <text x="20" y="174" font-size="19" font-weight="700" fill="#3D352C">📊 월간 리포트</text>
+      <!-- segmented toggle -->
+      <rect x="258" y="159" width="112" height="30" rx="15" fill="#F3E9DA" stroke="#E8D9C3" stroke-width="1"/>
+      <rect x="261" y="162" width="54" height="24" rx="12" fill="#FFD66B"/>
+      <text x="288" y="178" font-size="12.5" font-weight="700" fill="#A87C2F" text-anchor="middle">이번 달</text>
+      <text x="343" y="178" font-size="12.5" font-weight="600" fill="#9A8B7B" text-anchor="middle">지난 달</text>
+    </g>
+
+    <!-- ===== Generate button + status ===== -->
+    <g font-family="system-ui, sans-serif">
+      <rect x="20" y="200" width="350" height="46" rx="14" fill="#FFD66B" filter="url(#cardShadow)"/>
+      <g transform="translate(150,223)">
+        <path d="M-6 0 L-3 -1 L-2 -4 L-1 -1 L2 0 L-1 1 L-2 4 L-3 1 Z" fill="#A87C2F"/>
+        <circle cx="4" cy="-3" r="1.4" fill="#A87C2F"/>
+      </g>
+      <text x="166" y="228" font-size="15.5" font-weight="700" fill="#A87C2F">월간 리포트 생성</text>
+      <text x="20" y="263" font-size="11" fill="#9A8B7B">기록이 변하면 다시 생성할 수 있어요 · 만드는 중...</text>
+    </g>
+
+    <!-- ===== Report summary card (한눈 요약) ===== -->
+    <g font-family="system-ui, sans-serif">
+      <rect x="20" y="276" width="350" height="92" rx="20" fill="#F3E9DA" stroke="#EFE5D6" stroke-width="1" filter="url(#softShadow)"/>
+      <g transform="translate(36,300)">
+        <circle cx="0" cy="0" r="11" fill="#FFE7A3"/>
+        <text x="0" y="4.5" font-size="12" text-anchor="middle">🌱</text>
+      </g>
+      <text x="56" y="298" font-size="12.5" font-weight="700" fill="#A87C2F">2026년 6월 · 한눈 요약</text>
+      <text x="36" y="324" font-size="13.5" fill="#3D352C">하준이는 이번 달 수면과 식사가 안정적이었어요.</text>
+      <text x="36" y="343" font-size="13.5" fill="#3D352C">새로 6개월 치솟기가 나왔고, 배변 활동도 건강해</text>
+      <text x="36" y="362" font-size="13.5" fill="#3D352C">보여요.</text>
+    </g>
+
+    <!-- ===== Report sections (① ② ③ ④) ===== -->
+    <g font-family="system-ui, sans-serif">
+      <rect x="20" y="380" width="350" height="290" rx="20" fill="#FFFFFF" stroke="#EFE5D6" stroke-width="1" filter="url(#cardShadow)"/>
+
+      <!-- ① 수면·식사 흐름 (mint) -->
+      <rect x="20" y="380" width="4" height="68" rx="2" fill="#9FD8BE"/>
+      <circle cx="44" cy="406" r="11" fill="#CFEBDD"/>
+      <text x="44" y="410" font-size="11" font-weight="700" fill="#3D352C" text-anchor="middle">①</text>
+      <text x="64" y="403" font-size="14.5" font-weight="700" fill="#3D352C">수면·식사 흐름</text>
+      <text x="64" y="423" font-size="12.5" fill="#6F6557">지난 달 대비 수면 시간이 약간 줄었지만 야식</text>
+      <text x="64" y="439" font-size="12.5" fill="#6F6557">횟수는 늘었어요. 식사는 대체로 안정적이에요.</text>
+
+      <line x1="36" y1="456" x2="354" y2="456" stroke="#EFE5D6" stroke-width="1"/>
+
+      <!-- ② 성장 측정 (lilac) -->
+      <rect x="20" y="464" width="4" height="60" rx="2" fill="#E5DBF0"/>
+      <circle cx="44" cy="488" r="11" fill="#E5DBF0"/>
+      <text x="44" y="492" font-size="11" font-weight="700" fill="#3D352C" text-anchor="middle">②</text>
+      <text x="64" y="485" font-size="14.5" font-weight="700" fill="#3D352C">성장 측정</text>
+      <text x="64" y="505" font-size="12.5" fill="#6F6557">지난 리포트 이후 체중이 0.2kg 증가했어요.</text>
+      <text x="64" y="521" font-size="12.5" fill="#6F6557">성장 곡선상 건강한 범위 내입니다.</text>
+
+      <line x1="36" y1="538" x2="354" y2="538" stroke="#EFE5D6" stroke-width="1"/>
+
+      <!-- ③ 새 발달 이정표 (yellow) -->
+      <rect x="20" y="546" width="4" height="60" rx="2" fill="#FFD66B"/>
+      <circle cx="44" cy="570" r="11" fill="#FFE7A3"/>
+      <text x="44" y="574" font-size="11" font-weight="700" fill="#A87C2F" text-anchor="middle">③</text>
+      <text x="64" y="567" font-size="14.5" font-weight="700" fill="#3D352C">새 발달 이정표</text>
+      <text x="64" y="587" font-size="12.5" fill="#6F6557">최근에 '혼자 서 있기'라는 큰 이정표를 달성했</text>
+      <text x="64" y="603" font-size="12.5" fill="#6F6557">어요. 근력과 균형감이 발달하고 있어요.</text>
+
+      <line x1="36" y1="620" x2="354" y2="620" stroke="#EFE5D6" stroke-width="1"/>
+
+      <!-- ④ 건강 기록 (blush) -->
+      <rect x="20" y="628" width="4" height="42" rx="2" fill="#F8DAD0"/>
+      <circle cx="44" cy="652" r="11" fill="#F8DAD0"/>
+      <text x="44" y="656" font-size="11" font-weight="700" fill="#C76A55" text-anchor="middle">④</text>
+      <text x="64" y="649" font-size="14.5" font-weight="700" fill="#3D352C">건강 기록</text>
+      <text x="64" y="666" font-size="12.5" fill="#6F6557">감기 증상 1회, 병원 방문 없음 · 접종 계획대로.</text>
+    </g>
+
+    <!-- ===== Q&A section header + hint ===== -->
+    <g font-family="system-ui, sans-serif">
+      <text x="20" y="704" font-size="19" font-weight="700" fill="#3D352C">💬 기록에 물어보기</text>
+      <text x="20" y="726" font-size="12.5" fill="#9A8B7B">이번 달 기록을 기준으로 답해요.</text>
+      <text x="20" y="743" font-size="12.5" fill="#9A8B7B">예: "이번 달 식사는 평소보다 늘었어?"</text>
+    </g>
+
+    <!-- ===== Q&A input field + button ===== -->
+    <g font-family="system-ui, sans-serif">
+      <rect x="20" y="754" width="262" height="44" rx="14" fill="#FFFFFF" stroke="#E8D9C3" stroke-width="1"/>
+      <text x="36" y="781" font-size="13.5" fill="#9A8B7B">기록에 대해 물어보세요</text>
+      <rect x="290" y="754" width="80" height="44" rx="14" fill="#FFD66B" filter="url(#cardShadow)"/>
+      <text x="330" y="781" font-size="14" font-weight="700" fill="#A87C2F" text-anchor="middle">물어보기</text>
+    </g>
+
+    <!-- ===== Q&A answer card ===== -->
+    <g font-family="system-ui, sans-serif">
+      <rect x="20" y="810" width="350" height="20" rx="0" fill="#FFF9F0"/>
+      <rect x="20" y="810" width="350" height="78" rx="20" fill="#F3E9DA" stroke="#EFE5D6" stroke-width="1" filter="url(#softShadow)"/>
+      <g transform="translate(36,832)">
+        <circle cx="0" cy="0" r="10" fill="#FFE7A3"/>
+        <text x="0" y="4" font-size="11" text-anchor="middle">💌</text>
+      </g>
+      <text x="54" y="830" font-size="12" font-weight="700" fill="#A87C2F">생각하는 중...</text>
+      <text x="36" y="852" font-size="12.5" fill="#3D352C">맞아요, 이번 달 식사 횟수가 지난달 평균 3.1회</text>
+      <text x="36" y="869" font-size="12.5" fill="#3D352C">에서 5.8회로 늘었어요. 간식 량 증가 때문으로</text>
+      <text x="36" y="886" font-size="12.5" fill="#3D352C">보여요.</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,111 @@
+<svg viewBox="0 0 390 844" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>추억 화면 — 기념일, 아이에게 쓰는 편지, 타임캡슐</title>
+<desc>다가오는 기념일 카드, 편지 쓰기 버튼, 공개·봉인 편지 카드를 보여주는 추억 화면 목업</desc>
+<defs>
+<filter id="cardShadow" x="-20%" y="-20%" width="140%" height="150%">
+<feDropShadow dx="0" dy="3" stdDeviation="6" flood-color="#3D352C" flood-opacity="0.06"/>
+</filter>
+<filter id="ddayShadow" x="-20%" y="-20%" width="140%" height="160%">
+<feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#A87C2F" flood-opacity="0.18"/>
+</filter>
+<clipPath id="screenClip"><rect x="0" y="0" width="390" height="844" rx="0"/></clipPath>
+</defs>
+
+<g clip-path="url(#screenClip)">
+<rect x="0" y="0" width="390" height="844" fill="#FFF9F0"/>
+
+<text x="20" y="28" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#3D352C">9:41</text>
+<g fill="#3D352C">
+<rect x="327" y="18" width="3" height="8" rx="1"/>
+<rect x="332" y="15" width="3" height="11" rx="1"/>
+<rect x="337" y="12" width="3" height="14" rx="1"/>
+<rect x="342" y="9" width="3" height="17" rx="1"/>
+<path d="M352 13 a8 8 0 0 1 12 0 l-1.6 1.6 a5.7 5.7 0 0 0 -8.8 0 Z"/>
+<path d="M354.4 16 a4.4 4.4 0 0 1 7.2 0 l-1.7 1.7 a2 2 0 0 0 -3.8 0 Z"/>
+<circle cx="358" cy="20.5" r="1.4"/>
+<rect x="367" y="11" width="18" height="10" rx="2.4" fill="none" stroke="#3D352C" stroke-width="1.2"/>
+<rect x="368.6" y="12.6" width="13" height="6.8" rx="1.2"/>
+<rect x="385.6" y="14" width="1.6" height="4" rx="0.8"/>
+</g>
+
+<text x="18" y="64" font-family="system-ui, -apple-system, sans-serif" font-size="15" fill="#6F6557">‹ 뒤로</text>
+
+<text x="20" y="102" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="700" fill="#3D352C">추억</text>
+<text x="20" y="124" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#9A8B7B">하준 · 생후 26개월</text>
+
+<text x="20" y="158" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#6F6557" letter-spacing="0.3">다가오는 기념일</text>
+
+<g filter="url(#ddayShadow)">
+<rect x="20" y="170" width="166" height="118" rx="20" fill="#FFD66B"/>
+</g>
+<rect x="20" y="170" width="166" height="118" rx="20" fill="none" stroke="#F2C24E" stroke-width="1"/>
+<circle cx="158" cy="200" r="20" fill="#FFE7A3" opacity="0.7"/>
+<text x="36" y="208" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="700" fill="#A87C2F">🎉</text>
+<text x="36" y="240" font-family="system-ui, -apple-system, sans-serif" font-size="19" font-weight="700" fill="#5C4416">100일</text>
+<text x="36" y="262" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#A87C2F">2024년 7월 11일</text>
+<rect x="36" y="270" width="58" height="22" rx="11" fill="#5C4416"/>
+<text x="65" y="285" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700" fill="#FFE7A3" text-anchor="middle">D-DAY</text>
+
+<g filter="url(#cardShadow)">
+<rect x="204" y="170" width="166" height="118" rx="20" fill="#FFFFFF"/>
+</g>
+<rect x="204" y="170" width="166" height="118" rx="20" fill="none" stroke="#EFE5D6" stroke-width="1"/>
+<circle cx="342" cy="200" r="20" fill="#FFF4D8"/>
+<text x="220" y="208" font-family="system-ui, -apple-system, sans-serif" font-size="22">🎂</text>
+<text x="220" y="240" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="700" fill="#3D352C">첫 생일 (돌)</text>
+<text x="220" y="262" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#9A8B7B">2025년 4월 2일</text>
+<rect x="220" y="270" width="58" height="22" rx="11" fill="#FFE7A3"/>
+<text x="249" y="285" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700" fill="#A87C2F" text-anchor="middle">D-256</text>
+
+<text x="20" y="326" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#6F6557" letter-spacing="0.3">아이에게 쓰는 편지</text>
+<g>
+<rect x="262" y="312" width="108" height="34" rx="17" fill="#FFD66B"/>
+<text x="316" y="334" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="700" fill="#A87C2F" text-anchor="middle">＋ 편지 쓰기</text>
+</g>
+
+<g filter="url(#cardShadow)">
+<rect x="20" y="358" width="350" height="106" rx="20" fill="#FFFFFF"/>
+</g>
+<rect x="20" y="358" width="350" height="106" rx="20" fill="none" stroke="#EFE5D6" stroke-width="1"/>
+<rect x="20" y="358" width="5" height="106" rx="2.5" fill="#FFD66B"/>
+<text x="42" y="390" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="700" fill="#3D352C">💌 첫 생일에 쓰는 편지</text>
+<text x="42" y="414" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#6F6557">첫 생일을 맞이한 우리 아이에게...</text>
+<rect x="42" y="430" width="52" height="22" rx="11" fill="#CFEBDD"/>
+<text x="68" y="445" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700" fill="#3D352C" text-anchor="middle">공개됨</text>
+<text x="108" y="445" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#9A8B7B">2025년 4월 2일 작성</text>
+<text x="350" y="392" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#9A8B7B" text-anchor="middle">›</text>
+
+<g filter="url(#cardShadow)">
+<rect x="20" y="476" width="350" height="106" rx="20" fill="#F3E9DA"/>
+</g>
+<rect x="20" y="476" width="350" height="106" rx="20" fill="none" stroke="#E8D9C3" stroke-width="1"/>
+<rect x="20" y="476" width="5" height="106" rx="2.5" fill="#E8D9C3"/>
+<text x="42" y="508" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="700" fill="#6F6557">🔒 2살 생일 선물 편지</text>
+<text x="42" y="532" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#9A8B7B">2026년 4월 2일 공개 · D-256</text>
+<g>
+<rect x="42" y="548" width="200" height="22" rx="11" fill="#FFFFFF" stroke="#E8D9C3" stroke-width="1"/>
+<path d="M55 559 v-3 a3 3 0 0 1 6 0 v3" fill="none" stroke="#9A8B7B" stroke-width="1.4" stroke-linecap="round"/>
+<rect x="52" y="558.5" width="12" height="8" rx="1.6" fill="#9A8B7B"/>
+<text x="72" y="563" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700" fill="#6F6557">타임캡슐로 봉인됨 · 공개일까지 잠김</text>
+</g>
+<circle cx="346" cy="500" r="13" fill="#FFFFFF" stroke="#E8D9C3" stroke-width="1"/>
+<path d="M341 500 v-3.5 a5 5 0 0 1 10 0 v3.5" fill="none" stroke="#9A8B7B" stroke-width="1.4" stroke-linecap="round"/>
+<rect x="340" y="499" width="12" height="9" rx="1.8" fill="#9A8B7B"/>
+
+<g filter="url(#cardShadow)">
+<rect x="20" y="594" width="350" height="150" rx="20" fill="#FFFFFF"/>
+</g>
+<rect x="20" y="594" width="350" height="150" rx="20" fill="none" stroke="#EFE5D6" stroke-width="1"/>
+<rect x="20" y="594" width="350" height="150" rx="20" fill="none" stroke="#EFE5D6" stroke-width="1" stroke-dasharray="2 5"/>
+<circle cx="195" cy="640" r="26" fill="#FFE7A3" opacity="0.45"/>
+<text x="195" y="650" font-family="system-ui, -apple-system, sans-serif" font-size="30" text-anchor="middle">💌</text>
+<text x="195" y="690" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="700" fill="#3D352C" text-anchor="middle">첫 편지를 남겨볼까요?</text>
+<text x="195" y="712" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#9A8B7B" text-anchor="middle">지금의 마음을 적어 나중에 아이에게 전해주세요.</text>
+<text x="195" y="730" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#9A8B7B" text-anchor="middle">타임캡슐로 봉인할 수도 있어요.</text>
+
+<g filter="url(#ddayShadow)">
+<rect x="76" y="770" width="238" height="42" rx="21" fill="#241E18"/>
+</g>
+<text x="195" y="796" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="700" fill="#FFF9F0" text-anchor="middle">💌 편지를 저장했어요</text>
+</g>
+</svg>

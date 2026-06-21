@@ -1,0 +1,175 @@
+<svg viewBox="0 0 390 844" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="건강수첩 화면 — 하준이 26개월 건강기록 타임라인">
+  <defs>
+    <filter id="cardShadow" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="3" stdDeviation="6" flood-color="#A87C2F" flood-opacity="0.10"/>
+    </filter>
+    <filter id="softShadow" x="-30%" y="-30%" width="160%" height="180%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#A87C2F" flood-opacity="0.08"/>
+    </filter>
+    <clipPath id="screenClip"><rect x="0" y="0" width="390" height="844"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#screenClip)">
+  <rect x="0" y="0" width="390" height="844" fill="#FFF9F0"/>
+
+  <!-- ===== Status bar ===== -->
+  <text x="24" y="29" font-family="-apple-system, system-ui, sans-serif" font-size="13" font-weight="700" fill="#3D352C">9:41</text>
+  <g fill="#3D352C">
+    <!-- signal -->
+    <rect x="330" y="18" width="3" height="9" rx="1"/>
+    <rect x="335" y="15" width="3" height="12" rx="1"/>
+    <rect x="340" y="12" width="3" height="15" rx="1"/>
+    <rect x="345" y="9" width="3" height="18" rx="1" fill-opacity="0.35"/>
+    <!-- wifi -->
+    <path d="M353 14 q6 -5 12 0" stroke="#3D352C" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <path d="M355.5 17.5 q3.5 -3 7 0" stroke="#3D352C" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <circle cx="359" cy="22" r="1.4"/>
+    <!-- battery -->
+    <rect x="370" y="11" width="18" height="10" rx="2.5" fill="none" stroke="#3D352C" stroke-width="1.2"/>
+    <rect x="389" y="14" width="1.6" height="4" rx="0.8"/>
+    <rect x="371.5" y="12.5" width="12" height="7" rx="1.2"/>
+  </g>
+
+  <!-- ===== Back ===== -->
+  <text x="20" y="62" font-family="-apple-system, system-ui, sans-serif" font-size="15" fill="#6F6557">‹ 뒤로</text>
+
+  <!-- ===== Header ===== -->
+  <text x="20" y="98" font-family="-apple-system, system-ui, sans-serif" font-size="28" font-weight="700" fill="#3D352C">건강수첩</text>
+
+  <!-- disclaimer banner -->
+  <rect x="20" y="112" width="350" height="50" rx="14" fill="#FFE7A3" fill-opacity="0.45"/>
+  <rect x="20.5" y="112.5" width="349" height="49" rx="13.5" fill="none" stroke="#FFD66B" stroke-width="1"/>
+  <circle cx="38" cy="137" r="9" fill="#FFD66B"/>
+  <path d="M38 132.5 v5.5 M38 141.5 v0.3" stroke="#A87C2F" stroke-width="2" stroke-linecap="round"/>
+  <text x="56" y="131" font-family="-apple-system, system-ui, sans-serif" font-size="12" fill="#6F6557">건강기록은 보호자가 직접 남기는 참고용 메모예요.</text>
+  <text x="56" y="148" font-family="-apple-system, system-ui, sans-serif" font-size="12" fill="#6F6557">진단·처방은 의료진과 상담하세요.</text>
+
+  <!-- ===== Health profile card ===== -->
+  <rect x="20" y="176" width="350" height="158" rx="22" fill="#FFFFFF" filter="url(#cardShadow)"/>
+  <rect x="20.5" y="176.5" width="349" height="157" rx="21.5" fill="none" stroke="#EFE5D6" stroke-width="1"/>
+  <!-- accent stripe -->
+  <rect x="20" y="176" width="6" height="158" rx="3" fill="#FFD66B"/>
+  <rect x="22" y="176" width="4" height="158" fill="#FFD66B"/>
+
+  <text x="40" y="206" font-family="-apple-system, system-ui, sans-serif" font-size="17" font-weight="700" fill="#3D352C">🩺 건강 프로필</text>
+  <!-- edit pill -->
+  <rect x="304" y="190" width="50" height="26" rx="13" fill="#FFF9F0"/>
+  <rect x="304.5" y="190.5" width="49" height="25" rx="12.5" fill="none" stroke="#E8D9C3" stroke-width="1"/>
+  <text x="329" y="207" text-anchor="middle" font-family="-apple-system, system-ui, sans-serif" font-size="13" fill="#6F6557">수정</text>
+
+  <line x1="40" y1="224" x2="350" y2="224" stroke="#EFE5D6" stroke-width="1"/>
+
+  <!-- profile rows -->
+  <text x="40" y="252" font-family="-apple-system, system-ui, sans-serif" font-size="13" fill="#9A8B7B">혈액형</text>
+  <text x="350" y="252" text-anchor="end" font-family="-apple-system, system-ui, sans-serif" font-size="15" font-weight="700" fill="#3D352C">O형</text>
+
+  <text x="40" y="282" font-family="-apple-system, system-ui, sans-serif" font-size="13" fill="#9A8B7B">알레르기</text>
+  <rect x="270" y="270" width="36" height="20" rx="10" fill="#F8DAD0"/>
+  <text x="288" y="284" text-anchor="middle" font-family="-apple-system, system-ui, sans-serif" font-size="12" fill="#C76A55">계란</text>
+  <rect x="312" y="270" width="38" height="20" rx="10" fill="#F8DAD0"/>
+  <text x="331" y="284" text-anchor="middle" font-family="-apple-system, system-ui, sans-serif" font-size="12" fill="#C76A55">우유</text>
+
+  <text x="40" y="312" font-family="-apple-system, system-ui, sans-serif" font-size="13" fill="#9A8B7B">특이사항</text>
+  <text x="350" y="312" text-anchor="end" font-family="-apple-system, system-ui, sans-serif" font-size="14" fill="#3D352C">진균 감염 과거력</text>
+
+  <!-- ===== Medical documents section ===== -->
+  <text x="20" y="368" font-family="-apple-system, system-ui, sans-serif" font-size="14" font-weight="700" fill="#6F6557">의료 문서 (검진결과지·처방전)</text>
+  <rect x="296" y="352" width="74" height="26" rx="13" fill="#FFFFFF"/>
+  <rect x="296.5" y="352.5" width="73" height="25" rx="12.5" fill="none" stroke="#E8D9C3" stroke-width="1"/>
+  <text x="333" y="369" text-anchor="middle" font-family="-apple-system, system-ui, sans-serif" font-size="13" fill="#A87C2F">＋ 문서</text>
+
+  <!-- empty state -->
+  <rect x="20" y="382" width="350" height="74" rx="18" fill="#F3E9DA" fill-opacity="0.55"/>
+  <rect x="20.5" y="382.5" width="349" height="73" rx="17.5" fill="none" stroke="#E8D9C3" stroke-width="1" stroke-dasharray="5 4"/>
+  <!-- doc glyph -->
+  <g transform="translate(40,402)">
+    <rect x="0" y="0" width="26" height="33" rx="4" fill="#FFFFFF" stroke="#C8B79C" stroke-width="1.4"/>
+    <path d="M18 0 L26 8 L18 8 Z" fill="#E8D9C3"/>
+    <line x1="6" y1="15" x2="20" y2="15" stroke="#C8B79C" stroke-width="1.4" stroke-linecap="round"/>
+    <line x1="6" y1="21" x2="20" y2="21" stroke="#C8B79C" stroke-width="1.4" stroke-linecap="round"/>
+    <line x1="6" y1="27" x2="14" y2="27" stroke="#C8B79C" stroke-width="1.4" stroke-linecap="round"/>
+  </g>
+  <text x="80" y="408" font-family="-apple-system, system-ui, sans-serif" font-size="12.5" fill="#9A8B7B">검진결과지·처방전을 사진으로 보관해두면</text>
+  <text x="80" y="425" font-family="-apple-system, system-ui, sans-serif" font-size="12.5" fill="#9A8B7B">병원에서 바로 보여줄 수 있어요.</text>
+  <text x="80" y="442" font-family="-apple-system, system-ui, sans-serif" font-size="12" fill="#C8B79C">가족만 열람</text>
+
+  <!-- ===== Add record section ===== -->
+  <text x="20" y="492" font-family="-apple-system, system-ui, sans-serif" font-size="14" font-weight="700" fill="#6F6557">기록 추가</text>
+
+  <!-- button group 2x2 -->
+  <!-- 예방접종 (blue) -->
+  <g>
+    <rect x="20" y="504" width="169" height="48" rx="14" fill="#D6E6F5"/>
+    <rect x="20.5" y="504.5" width="168" height="47" rx="13.5" fill="none" stroke="#A8C8EC" stroke-width="1"/>
+    <text x="40" y="533" font-family="-apple-system, system-ui, sans-serif" font-size="15" font-weight="700" fill="#3D352C">💉 예방접종</text>
+  </g>
+  <!-- 증상·발열 (blush) -->
+  <g>
+    <rect x="201" y="504" width="169" height="48" rx="14" fill="#F8DAD0"/>
+    <rect x="201.5" y="504.5" width="168" height="47" rx="13.5" fill="none" stroke="#F0B6A6" stroke-width="1"/>
+    <text x="221" y="533" font-family="-apple-system, system-ui, sans-serif" font-size="15" font-weight="700" fill="#3D352C">🤒 증상·발열</text>
+  </g>
+  <!-- 투약 (lilac) -->
+  <g>
+    <rect x="20" y="562" width="169" height="48" rx="14" fill="#E5DBF0"/>
+    <rect x="20.5" y="562.5" width="168" height="47" rx="13.5" fill="none" stroke="#CBBCE0" stroke-width="1"/>
+    <text x="40" y="591" font-family="-apple-system, system-ui, sans-serif" font-size="15" font-weight="700" fill="#3D352C">💊 투약</text>
+  </g>
+  <!-- 병원 방문 (mint) -->
+  <g>
+    <rect x="201" y="562" width="169" height="48" rx="14" fill="#CFEBDD"/>
+    <rect x="201.5" y="562.5" width="168" height="47" rx="13.5" fill="none" stroke="#9FD8BE" stroke-width="1"/>
+    <text x="221" y="591" font-family="-apple-system, system-ui, sans-serif" font-size="15" font-weight="700" fill="#3D352C">🏥 병원 방문</text>
+  </g>
+
+  <!-- ===== Timeline ===== -->
+  <text x="20" y="648" font-family="-apple-system, system-ui, sans-serif" font-size="18" font-weight="700" fill="#3D352C">하준이의 건강기록</text>
+  <text x="20" y="666" font-family="-apple-system, system-ui, sans-serif" font-size="13" fill="#9A8B7B">26개월 · 2024년 4월 2일생</text>
+
+  <!-- timeline rail -->
+  <line x1="34" y1="694" x2="34" y2="952" stroke="#E8D9C3" stroke-width="2"/>
+
+  <!-- Timeline item 1 — 예방접종 (blue) -->
+  <circle cx="34" cy="704" r="6" fill="#A8C8EC" stroke="#FFF9F0" stroke-width="2.5"/>
+  <rect x="54" y="688" width="316" height="62" rx="16" fill="#FFFFFF" filter="url(#softShadow)"/>
+  <rect x="54.5" y="688.5" width="315" height="61" rx="15.5" fill="none" stroke="#EFE5D6" stroke-width="1"/>
+  <rect x="54" y="688" width="5" height="62" rx="2.5" fill="#A8C8EC"/>
+  <rect x="56" y="688" width="3" height="62" fill="#A8C8EC"/>
+  <text x="72" y="710" font-family="-apple-system, system-ui, sans-serif" font-size="15" font-weight="700" fill="#3D352C">홍역 MMR 2차</text>
+  <text x="72" y="729" font-family="-apple-system, system-ui, sans-serif" font-size="12" fill="#6F6557">예방접종 · 2026년 6월 18일</text>
+  <text x="72" y="744" font-family="-apple-system, system-ui, sans-serif" font-size="12" fill="#9A8B7B">소아과 클리닉</text>
+
+  <!-- Timeline item 2 — 증상 (blush) -->
+  <circle cx="34" cy="778" r="6" fill="#F8DAD0" stroke="#FFF9F0" stroke-width="2.5"/>
+  <rect x="54" y="762" width="316" height="62" rx="16" fill="#FFFFFF" filter="url(#softShadow)"/>
+  <rect x="54.5" y="762.5" width="315" height="61" rx="15.5" fill="none" stroke="#EFE5D6" stroke-width="1"/>
+  <rect x="54" y="762" width="5" height="62" rx="2.5" fill="#F8DAD0"/>
+  <rect x="56" y="762" width="3" height="62" fill="#F8DAD0"/>
+  <text x="72" y="784" font-family="-apple-system, system-ui, sans-serif" font-size="15" font-weight="700" fill="#3D352C">감기 증상</text>
+  <text x="72" y="803" font-family="-apple-system, system-ui, sans-serif" font-size="12" fill="#6F6557">증상·발열 · 2026년 6월 15일</text>
+  <text x="72" y="818" font-family="-apple-system, system-ui, sans-serif" font-size="12" fill="#9A8B7B">📝 코 흘림, 미열 38.2℃</text>
+
+  <!-- Timeline item 3 — 투약 (lilac) -->
+  <circle cx="34" cy="852" r="6" fill="#E5DBF0" stroke="#FFF9F0" stroke-width="2.5"/>
+  <rect x="54" y="836" width="316" height="62" rx="16" fill="#FFFFFF" filter="url(#softShadow)"/>
+  <rect x="54.5" y="836.5" width="315" height="61" rx="15.5" fill="none" stroke="#EFE5D6" stroke-width="1"/>
+  <rect x="54" y="836" width="5" height="62" rx="2.5" fill="#E5DBF0"/>
+  <rect x="56" y="836" width="3" height="62" fill="#E5DBF0"/>
+  <text x="72" y="858" font-family="-apple-system, system-ui, sans-serif" font-size="15" font-weight="700" fill="#3D352C">감기약 복용</text>
+  <text x="72" y="877" font-family="-apple-system, system-ui, sans-serif" font-size="12" fill="#6F6557">투약 · 2026년 6월 15일</text>
+  <text x="72" y="892" font-family="-apple-system, system-ui, sans-serif" font-size="12" fill="#9A8B7B">📝 소아용 감기약 10mL · 하루 3회</text>
+
+  <!-- Timeline item 4 — 병원 방문 (mint) -->
+  <circle cx="34" cy="926" r="6" fill="#9FD8BE" stroke="#FFF9F0" stroke-width="2.5"/>
+  <rect x="54" y="910" width="316" height="62" rx="16" fill="#FFFFFF" filter="url(#softShadow)"/>
+  <rect x="54.5" y="910.5" width="315" height="61" rx="15.5" fill="none" stroke="#EFE5D6" stroke-width="1"/>
+  <rect x="54" y="910" width="5" height="62" rx="2.5" fill="#9FD8BE"/>
+  <rect x="56" y="910" width="3" height="62" fill="#9FD8BE"/>
+  <text x="72" y="932" font-family="-apple-system, system-ui, sans-serif" font-size="15" font-weight="700" fill="#3D352C">정기 검진</text>
+  <text x="72" y="951" font-family="-apple-system, system-ui, sans-serif" font-size="12" fill="#6F6557">병원 방문 · 2026년 6월 10일</text>
+  <text x="72" y="966" font-family="-apple-system, system-ui, sans-serif" font-size="12" fill="#9A8B7B">소아과 · 발달 정상</text>
+
+  <!-- hint -->
+  <text x="195" y="1000" text-anchor="middle" font-family="-apple-system, system-ui, sans-serif" font-size="12" fill="#9A8B7B">기록을 길게 누르면 수정·삭제할 수 있어요</text>
+  </g>
+</svg>

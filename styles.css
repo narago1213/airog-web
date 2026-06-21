@@ -1,0 +1,159 @@
+/*
+ * 아이로그 소개/법무 정적 사이트 — 앱의 "nursery-luxury" 디자인 토큰과 일치.
+ * 프레임워크 없음(순수 HTML/CSS). 색·폰트는 src/styles/tokens.ts 와 동일 계열.
+ */
+:root {
+  --cream: #fff9f0;
+  --beige: #f3e9da;
+  --beige-deep: #e8d9c3;
+  --soft-yellow: #ffe7a3;
+  --soft-yellow-hi: #ffd66b;
+  --amber-ink: #a87c2f; /* 노랑(soft-yellow) 배경 위 텍스트용 — WCAG AA */
+  --amber-ink-accessible: #7d5a1a; /* 크림 배경 위 링크/제목용 — 본문 대비 4.5:1+ */
+  --mint: #cfebdd;
+  --pastel-blue: #d6e6f5;
+  --blush: #f8dad0;
+  --lilac: #e5dbf0;
+  --ink: #3d352c;
+  --ink-soft: #6f6557;
+  --ink-faint: #a99e8e;
+  --radius-md: 18px;
+  --radius-lg: 24px;
+  --radius-pill: 999px;
+  --shadow-soft: 0 6px 20px rgba(61, 53, 44, 0.07);
+  --maxw: 880px;
+  --font: -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  font-family: var(--font);
+  color: var(--ink);
+  background: var(--cream);
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+a { color: var(--amber-ink-accessible); }
+.sr-only {
+  position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+}
+/* 스킵 내비 — 키보드 포커스 시 노출 */
+.sr-only:focus {
+  position: static; width: auto; height: auto; padding: 12px 16px; margin: 0;
+  overflow: visible; clip: auto; white-space: normal;
+  display: inline-block; background: var(--soft-yellow-hi); color: var(--amber-ink); border-radius: 0 0 8px 0;
+}
+/* 키보드 포커스 표시(WCAG 2.4.7) */
+a:focus-visible,
+.badge:focus-visible,
+.back:focus-visible,
+.brand:focus-visible,
+.site-footer .links a:focus-visible {
+  outline: 3px solid var(--amber-ink-accessible);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+.wrap { max-width: var(--maxw); margin: 0 auto; padding: 0 22px; }
+
+/* ── Header ── */
+.site-header { padding: 20px 0; }
+.site-header .wrap { display: flex; align-items: center; justify-content: space-between; }
+.brand { display: flex; align-items: center; gap: 8px; font-weight: 800; font-size: 20px; text-decoration: none; color: var(--ink); white-space: nowrap; }
+.site-header .wrap { flex-wrap: wrap; gap: 8px 16px; }
+.brand .mark { font-size: 24px; }
+.nav a { margin-left: 18px; text-decoration: none; color: var(--ink-soft); font-size: 14px; font-weight: 600; }
+.nav a:hover, .nav a:focus-visible { text-decoration: underline; color: var(--ink); }
+
+/* ── Hero ── */
+.hero { text-align: center; padding: 56px 0 40px; }
+.hero .emoji { font-size: 56px; }
+.hero h1 {
+  font-size: clamp(2.2rem, 1.2rem + 4vw, 3.6rem);
+  margin: 12px 0 6px; letter-spacing: -0.02em;
+}
+.hero .tagline { font-size: clamp(1.05rem, 0.9rem + 0.6vw, 1.3rem); color: var(--ink-soft); margin: 0 auto; max-width: 30ch; }
+.hero .cta { margin-top: 26px; display: inline-flex; gap: 10px; flex-wrap: wrap; justify-content: center; }
+.badge {
+  display: inline-block; padding: 12px 22px; border-radius: var(--radius-pill);
+  background: var(--soft-yellow-hi); color: var(--amber-ink); font-weight: 800; text-decoration: none;
+  box-shadow: var(--shadow-soft);
+}
+.badge.ghost { background: var(--beige); color: var(--ink-soft); }
+.hero .soon { margin-top: 14px; font-size: 13px; color: var(--ink-soft); }
+
+/* ── Features ── */
+.features { padding: 28px 0 12px; }
+.features h2 { text-align: center; font-size: 1.5rem; margin: 0 0 6px; }
+.features .sub { text-align: center; color: var(--ink-soft); margin: 0 0 28px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; }
+.card {
+  background: #fff; border: 1px solid var(--beige-deep); border-radius: var(--radius-lg);
+  padding: 22px; box-shadow: var(--shadow-soft);
+}
+.card .ic {
+  width: 46px; height: 46px; border-radius: 14px; display: flex; align-items: center; justify-content: center;
+  font-size: 24px; margin-bottom: 12px;
+}
+.card h3 { margin: 0 0 6px; font-size: 1.1rem; }
+.card p { margin: 0; color: var(--ink-soft); font-size: 0.95rem; }
+.t-yellow { background: var(--soft-yellow); }
+.t-mint { background: var(--mint); }
+.t-blue { background: var(--pastel-blue); }
+.t-blush { background: var(--blush); }
+.t-lilac { background: var(--lilac); }
+
+/* ── Privacy/Promise band ── */
+.promise { margin: 44px 0; padding: 28px 24px; background: var(--beige); border-radius: var(--radius-lg); text-align: center; }
+.promise h2 { margin: 0 0 8px; font-size: 1.3rem; }
+.promise p { margin: 0 auto; max-width: 50ch; color: var(--ink-soft); }
+
+/* ── Legal pages ── */
+.legal { padding: 28px 0 60px; }
+.legal h1 { font-size: 1.9rem; margin: 8px 0 4px; }
+.legal .updated { color: var(--ink-soft); font-size: 13px; margin: 0 0 18px; }
+.legal .intro { color: var(--ink-soft); margin: 0 0 24px; }
+.legal section { background: #fff; border: 1px solid var(--beige-deep); border-radius: var(--radius-md); padding: 18px 20px; margin-bottom: 14px; }
+.legal section h2 { font-size: 1.05rem; color: var(--amber-ink-accessible); margin: 0 0 8px; }
+.legal section p { margin: 0; color: var(--ink); font-size: 0.96rem; }
+.back { display: inline-block; margin-top: 8px; color: var(--ink-soft); text-decoration: none; font-weight: 600; }
+
+/* ── Hero phone + 둘러보기 gallery ── */
+.hero-grid { display: grid; gap: 28px; align-items: center; }
+@media (min-width: 820px) {
+  .hero { text-align: left; padding: 64px 0 48px; }
+  .hero-grid { grid-template-columns: 1fr 300px; }
+  .hero-copy { text-align: left; }
+  .hero-copy .tagline { margin-left: 0; }
+  .hero-copy .cta { justify-content: flex-start; }
+}
+
+/* 기기 베젤 — 따뜻한 차콜(scrim), 순흑 아님 */
+.phone {
+  width: 100%; max-width: 232px; margin: 0 auto;
+  aspect-ratio: 390 / 844;
+  background: #241e18;
+  border-radius: 34px;
+  padding: 7px;
+  box-shadow: 0 22px 50px rgba(61, 53, 44, 0.18);
+}
+.phone img { width: 100%; height: 100%; display: block; border-radius: 27px; background: var(--cream); }
+.phone-hero { max-width: 282px; }
+@media (min-width: 820px) { .phone-hero { transform: rotate(1.4deg); } }
+
+.tour { margin: 50px 0 10px; }
+.tour h2 { text-align: center; font-size: 1.5rem; margin: 0 0 6px; }
+.tour .sub { text-align: center; color: var(--ink-soft); margin: 0 0 32px; }
+.tour-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(158px, 1fr)); gap: 34px 18px; }
+.shot { margin: 0; }
+.shot figcaption { text-align: center; margin-top: 14px; font-size: 0.92rem; font-weight: 700; color: var(--ink); }
+.shot figcaption small { display: block; font-weight: 500; color: var(--ink-soft); font-size: 0.8rem; margin-top: 2px; }
+
+/* ── Footer ── */
+.site-footer { border-top: 1px solid var(--beige-deep); padding: 28px 0 48px; margin-top: 24px; }
+.site-footer .wrap { display: flex; flex-wrap: wrap; gap: 12px 28px; justify-content: space-between; }
+.site-footer .links a { margin-right: 16px; color: var(--ink-soft); text-decoration: none; font-size: 14px; font-weight: 600; }
+.site-footer .links a:hover, .site-footer .links a:focus-visible { text-decoration: underline; color: var(--ink); }
+.site-footer .biz { color: var(--ink-soft); font-size: 12px; line-height: 1.6; }
