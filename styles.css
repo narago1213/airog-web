@@ -8,7 +8,7 @@
   --beige-deep: #e8d9c3;
   --soft-yellow: #ffe7a3;
   --soft-yellow-hi: #ffd66b;
-  --amber-ink: #a87c2f; /* 노랑(soft-yellow) 배경 위 텍스트용 — WCAG AA */
+  --amber-ink: #a87c2f; /* 장식 강조용(비텍스트). soft-yellow 위 텍스트는 대비 미달(2.7:1) → 텍스트엔 --amber-ink-accessible 사용 */
   --amber-ink-accessible: #7d5a1a; /* 크림 배경 위 링크/제목용 — 본문 대비 4.5:1+ */
   --mint: #cfebdd;
   --pastel-blue: #d6e6f5;
@@ -27,6 +27,7 @@
 
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 body {
   margin: 0;
   font-family: var(--font);
@@ -44,7 +45,7 @@ a { color: var(--amber-ink-accessible); }
 .sr-only:focus {
   position: static; width: auto; height: auto; padding: 12px 16px; margin: 0;
   overflow: visible; clip: auto; white-space: normal;
-  display: inline-block; background: var(--soft-yellow-hi); color: var(--amber-ink); border-radius: 0 0 8px 0;
+  display: inline-block; background: var(--soft-yellow-hi); color: var(--amber-ink-accessible); border-radius: 0 0 8px 0;
 }
 /* 키보드 포커스 표시(WCAG 2.4.7) */
 a:focus-visible,
@@ -78,7 +79,7 @@ a:focus-visible,
 .hero .cta { margin-top: 26px; display: inline-flex; gap: 10px; flex-wrap: wrap; justify-content: center; }
 .badge {
   display: inline-block; padding: 12px 22px; border-radius: var(--radius-pill);
-  background: var(--soft-yellow-hi); color: var(--amber-ink); font-weight: 800; text-decoration: none;
+  background: var(--soft-yellow-hi); color: var(--amber-ink-accessible); font-weight: 800; text-decoration: none;
   box-shadow: var(--shadow-soft);
 }
 .badge.ghost { background: var(--beige); color: var(--ink-soft); }

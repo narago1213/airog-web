@@ -1,0 +1,39 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Apple SD Gothic Neo', system-ui, sans-serif">
+  <rect x="0" y="0" width="1200" height="630" fill="#FFF9F0"/>
+  <circle cx="1150" cy="80" r="190" fill="#F3E9DA" opacity="0.5"/>
+  <circle cx="140" cy="600" r="150" fill="#FBEFD6" opacity="0.6"/>
+
+  <text x="90" y="190" font-size="62">🍼</text>
+  <text x="86" y="330" font-size="112" font-weight="800" fill="#3D352C">아이로그</text>
+  <text x="92" y="398" font-size="40" font-weight="500" fill="#6F6557">아이의 모든 순간을 한곳에</text>
+  <rect x="92" y="436" width="600" height="58" rx="29" fill="#FFE7A3"/>
+  <text x="122" y="475" font-size="27" font-weight="700" fill="#A87C2F">매일의 기록 · 성장 · 건강 · 발달 · 추억</text>
+
+  <!-- 곰돌이 -->
+  <circle cx="855" cy="251" r="20" fill="#E6C6A0"/><circle cx="925" cy="251" r="20" fill="#E6C6A0"/>
+  <circle cx="855" cy="251" r="9" fill="#CBA678"/><circle cx="925" cy="251" r="9" fill="#CBA678"/>
+  <circle cx="890" cy="300" r="58" fill="#E6C6A0"/>
+  <ellipse cx="890" cy="318" rx="24" ry="18" fill="#FBF0E2"/>
+  <circle cx="870" cy="293" r="5.5" fill="#3D352C"/><circle cx="910" cy="293" r="5.5" fill="#3D352C"/>
+  <ellipse cx="890" cy="310" rx="6" ry="4.5" fill="#3D352C"/>
+  <circle cx="850" cy="318" r="9" fill="#F4B6A6" opacity="0.7"/><circle cx="930" cy="318" r="9" fill="#F4B6A6" opacity="0.7"/>
+
+  <!-- 토끼 -->
+  <ellipse cx="994" cy="232" rx="13" ry="35" fill="#FBEAF0" stroke="#F0CDD9" stroke-width="3"/>
+  <ellipse cx="1026" cy="232" rx="13" ry="35" fill="#FBEAF0" stroke="#F0CDD9" stroke-width="3"/>
+  <circle cx="1010" cy="282" r="50" fill="#FBEAF0"/>
+  <circle cx="994" cy="278" r="5" fill="#3D352C"/><circle cx="1026" cy="278" r="5" fill="#3D352C"/>
+  <path d="M1002 291 l8 8 8 -8" fill="none" stroke="#D4537E" stroke-width="3.5" stroke-linecap="round"/>
+  <circle cx="976" cy="294" r="8.5" fill="#F4A6C0" opacity="0.7"/><circle cx="1044" cy="294" r="8.5" fill="#F4A6C0" opacity="0.7"/>
+
+  <!-- 병아리 -->
+  <path d="M1098 296 l4 -14 4 14z M1108 294 l4 -14 4 14z" fill="#F0B43C"/>
+  <circle cx="1108" cy="338" r="46" fill="#FFD66B"/>
+  <circle cx="1095" cy="333" r="5" fill="#3D352C"/><circle cx="1121" cy="333" r="5" fill="#3D352C"/>
+  <path d="M1100 345 l8 8 8 -8z" fill="#F0982A"/>
+  <circle cx="1081" cy="347" r="8" fill="#F2A6A0" opacity="0.65"/><circle cx="1135" cy="347" r="8" fill="#F2A6A0" opacity="0.65"/>
+
+  <text x="828" y="248" font-size="32">✨</text>
+  <text x="1150" y="430" font-size="28">✨</text>
+  <text x="790" y="210" font-size="26">💛</text>
+</svg>
